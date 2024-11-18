@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background-color: hsla(180, 100%, 96%, 0.852);
+    color: #113264;
+}
+
+.tete {
+    display: flex;
+    position: fixed;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #A9E2FD;
+}
+
+h3 {
+    padding-top: 100px;
+}
+
+.boxnom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(server.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+}
+
+.boxid {
+
+    display: flex;
+    justify-content: center;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 50px;
+}
+
+.box3 {
+    height: 50px;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+    align-content: center;
+    box-shadow: 0 10px 30px #0588F01F;
+  border: 1px solid #ACD8FC8A;
+  border-radius: 4px;
+
+}
+.interactif:hover{
+    transform: scale(1.1);
+    transition: all ease 400ms;
+}
+
+.box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    flex-wrap: wrap;
+}
+
+#shark {
+    height: 100px;
+    width: 100px;
+}
+
+h1 {
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+h2,
+h3 {
+    font-size: 32px;
+}
+
+h2 {
+    color: #113264;
+}
+
+#white {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+a {
+    color: #113264;
+    text-decoration: none;
+}
