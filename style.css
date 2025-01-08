@@ -33,7 +33,7 @@ h3 {
 .box {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     width: 100vw;
     max-width: 1280px;
     flex-wrap: wrap;
