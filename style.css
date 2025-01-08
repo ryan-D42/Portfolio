@@ -27,6 +27,7 @@ h3 {
     height: 100vh;
     background-image: url(server.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
@@ -35,7 +36,6 @@ h3 {
     justify-content: center;
     align-items: start;
     width: 100vw;
-    max-width: 1280px;
     flex-wrap: wrap;
 }
 
